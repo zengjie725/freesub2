@@ -5,21 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.161.144
-  port: 8443
+  server: 104.21.70.21
+  port: 443
   udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: playlux.homes
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /raccoonwsvless
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: playlux.homes
 proxy-groups:
 - name: PROXIES
   type: select
