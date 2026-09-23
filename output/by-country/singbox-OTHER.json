@@ -6,22 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.70.21",
+      "server": "104.18.14.103",
       "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
+      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
         "enabled": true,
-        "server_name": "playlux.homes",
+        "server_name": "server9.9966338.xyz",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/imnotarealherox",
         "headers": {
-          "Host": "playlux.homes"
+          "Host": "server9.9966338.xyz"
         }
       }
     },

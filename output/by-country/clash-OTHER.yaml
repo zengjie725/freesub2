@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.70.21
+  server: 104.18.14.103
   port: 443
   udp: true
   type: vless
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: playlux.homes
+  servername: server9.9966338.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /raccoonwsvless
+    path: /imnotarealherox
     headers:
-      Host: playlux.homes
+      Host: server9.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
