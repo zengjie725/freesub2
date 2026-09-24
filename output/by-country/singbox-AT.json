@@ -44,7 +44,7 @@
         "server_name": "ru.vkroom-it-service.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,

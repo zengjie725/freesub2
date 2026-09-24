@@ -36,7 +36,7 @@ proxies:
     public-key: 1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI
     short-id: a4f7c2e91b6d8035
   servername: ru.vkroom-it-service.xyz
-  client-fingerprint: safari
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
