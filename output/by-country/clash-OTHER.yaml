@@ -5,20 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: undef.network
-  port: 2053
+  server: cdn.snobvpn.online
+  port: 80
   udp: true
   type: vless
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
+    path: /snob-ws
 proxy-groups:
 - name: PROXIES
   type: select
