@@ -6,25 +6,25 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
   server: 213.183.63.60
+  port: 9029
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: dU3DSNS8wYPXzEKw
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  server: 213.183.63.60
   port: 9028
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 9eeJ2fwnZA5Fxgz8
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 213.183.63.60
   port: 9098
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aLpQtfEZe445QyHk
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 213.183.63.60
-  port: 9066
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 2KUaE2a8NWTvuCZ3
 - name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
   server: 213.183.63.60
   port: 9049
@@ -34,11 +34,11 @@ proxies:
   password: PRBf4BS2HvJqtWxY
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
   server: 213.183.63.60
-  port: 9064
+  port: 9061
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
+  password: 4R3hUfZ2FHhDmNcP
 - name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
   server: 213.183.63.60
   port: 9054
@@ -74,6 +74,20 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
+  server: 213.183.63.60
+  port: 9064
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+- name: 🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe
+  server: 213.183.63.60
+  port: 9066
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 2KUaE2a8NWTvuCZ3
+- name: 🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe
   server: 136.175.82.85
   port: 18775
   udp: true
@@ -86,13 +100,6 @@ proxies:
     short-id: 6ba85179e30d4fc2
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe
-  server: 213.183.63.60
-  port: 9061
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
 proxy-groups:
 - name: PROXIES
   type: select
@@ -109,6 +116,7 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -125,5 +133,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe
 rules:
 - MATCH,PROXIES
