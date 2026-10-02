@@ -5,25 +5,28 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
-      "server": "81.208.170.142",
-      "server_port": 1500,
-      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "104.18.37.127",
+      "server_port": 443,
+      "uuid": "fa9ec1a9-6c24-4be2-9472-d1e2592b45b4",
       "tls": {
         "enabled": true,
-        "server_name": "www.ebay.com",
+        "server_name": "g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
-          "short_id": "775eb6408888248e"
         }
       },
       "transport": {
-        "type": "grpc"
+        "type": "ws",
+        "path": "/vl/pmsM6vhny85OmnvYbXIpf1l?ed=2560",
+        "headers": {
+          "Host": "g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev"
+        }
       }
     },
     {
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
