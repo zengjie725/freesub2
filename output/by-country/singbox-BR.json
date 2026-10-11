@@ -5,21 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
-      "server": "46.29.238.88",
-      "server_port": 40443,
-      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "35.199.90.53",
+      "server_port": 443,
+      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
-          "short_id": "f7b2"
+          "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
+          "short_id": "b62a4da6cd1c4dd6"
         }
       }
     },
@@ -28,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
