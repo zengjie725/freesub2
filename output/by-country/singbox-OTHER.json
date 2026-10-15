@@ -6,83 +6,73 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.70.22",
-      "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
+      "server": "172.67.181.232",
+      "server_port": 2053,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "tls": {
         "enabled": true,
-        "server_name": "luminouspetal.cyou",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "luminouspetal.cyou"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.70.22",
-      "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
-      "tls": {
-        "enabled": true,
-        "server_name": "luminouspetal.cyou",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "freesocks.work",
+      "server_port": 2052,
+      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "luminouspetal.cyou"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.21.70.22",
-      "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
-      "tls": {
-        "enabled": true,
-        "server_name": "luminouspetal.cyou",
-        "insecure": false
-      },
+      "server": "104.21.65.43",
+      "server_port": 2052,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "luminouspetal.cyou"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "104.21.70.22",
-      "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
+      "server": "104.21.65.43",
+      "server_port": 2052,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "transport": {
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "freesocks.work",
+      "server_port": 2053,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "tls": {
         "enabled": true,
-        "server_name": "luminouspetal.cyou",
+        "server_name": "uwu.blueknightnet.qzz.io",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -91,9 +81,51 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "luminouspetal.cyou"
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "server": "freesocks.work",
+      "server_port": 2053,
+      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "server": "freesocks.work",
+      "server_port": 2053,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -105,7 +137,10 @@
         "🌐 其他地区 (Other) 01 - xiaohe",
         "🌐 其他地区 (Other) 02 - xiaohe",
         "🌐 其他地区 (Other) 03 - xiaohe",
-        "🌐 其他地区 (Other) 04 - xiaohe"
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe",
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ]
     },
     {
@@ -115,7 +150,10 @@
         "🌐 其他地区 (Other) 01 - xiaohe",
         "🌐 其他地区 (Other) 02 - xiaohe",
         "🌐 其他地区 (Other) 03 - xiaohe",
-        "🌐 其他地区 (Other) 04 - xiaohe"
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe",
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
