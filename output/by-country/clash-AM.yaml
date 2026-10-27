@@ -5,70 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: 77.91.68.70
-  port: 55983
+  server: 194.36.37.59
+  port: 10004
   udp: true
   type: vless
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  tls: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
-  server: 77.91.68.70
-  port: 55983
-  udp: true
-  type: vless
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  tls: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 亚美尼亚 (Armenia) 03 - xiaohe
-  server: 77.91.68.70
-  port: 55983
-  udp: true
-  type: vless
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  tls: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
-  server: 77.91.68.70
-  port: 55983
-  udp: true
-  type: vless
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  tls: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
-  servername: yahoo.com
-  client-fingerprint: chrome
+  uuid: f7376394-cd54-11f1-bb6a-bff6d0326f6a
+  network: ws
+  ws-opts:
+    path: /vpnjantit
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 03 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 03 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
 rules:
 - MATCH,PROXIES
