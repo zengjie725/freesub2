@@ -34,29 +34,38 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "80.240.18.227",
-      "server_port": 10051,
-      "uuid": "711b6476-63fc-4f01-b4e0-d44e17d79383",
+      "server": "142.91.101.39",
+      "server_port": 627,
+      "uuid": "30b40928-f431-4c83-bfed-44f1243d16ff",
       "tls": {
         "enabled": true,
-        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+          "Host": "jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+      "server": "uae.unixzone.us",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "server": "185.253.116.33",
       "server_port": 14430,
       "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
@@ -69,31 +78,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "server": "95.174.68.188",
-      "server_port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-      "server": "uae.unixzone.us",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -102,8 +86,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
       ]
     },
     {
@@ -114,8 +97,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

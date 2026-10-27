@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe",
-      "server": "94.20.141.53",
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
+      "server": "185.105.108.176",
       "server_port": 443,
-      "uuid": "f439e4fe-139b-4882-ad8b-a16176d09c88",
+      "uuid": "689a62e4-37e7-41de-9e6a-f2a56368c9e2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eu63.cdn77.icu",
+        "server_name": "www.google.co.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
-          "short_id": "1ed136481e0ede74"
+          "public_key": "U9O1sbuPwoTowF3Ka7CIgUZlRjokulxSwsYohEGCLA8",
+          "short_id": "0d87fec579"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
