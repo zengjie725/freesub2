@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: v2ray.simspeedup.com
+  server: support.zoom.us.v2ray.simspeedup.com
   port: 80
   udp: true
   type: vless
@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /ws
     headers:
-      Host: ais.speedtest.net
+      Host: support.zoom.us.v2ray.simspeedup.com
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
   server: 45.154.26.63
   port: 443
@@ -29,7 +29,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 38.60.254.50
+  server: th001.zestapp778.com
   port: 22222
   udp: true
   type: vless
@@ -37,9 +37,9 @@ proxies:
   tls: true
   servername: th001.zestapp778.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
-  server: 104.16.111.193
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
@@ -47,7 +47,6 @@ proxies:
   tls: true
   servername: v2ray.simspeedup.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws
@@ -65,7 +64,20 @@ proxies:
     public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
     short-id: cbd39bea0805e2
   servername: www.kaidee.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇹🇭 泰国 (Thailand) 06 - xiaohe
+  server: 109.237.98.213
+  port: 443
+  udp: true
+  type: vless
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: 6ba85179e30d4fc2
+  servername: xy4l6bpbjk.xeltrona-host26.sbs
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,6 +88,7 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
   - 🇹🇭 泰国 (Thailand) 04 - xiaohe
   - 🇹🇭 泰国 (Thailand) 05 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -86,5 +99,6 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
   - 🇹🇭 泰国 (Thailand) 04 - xiaohe
   - 🇹🇭 泰国 (Thailand) 05 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 06 - xiaohe
 rules:
 - MATCH,PROXIES
