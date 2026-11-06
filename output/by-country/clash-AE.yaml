@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 23.27.20.142
-  port: 48537
+  server: 151.241.19.36
+  port: 19999
   udp: true
-  type: vless
-  uuid: b9e11dc2-03b6-4bab-a14d-c48369febdc1
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  server: 151.241.19.29
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 130.49.161.70
   port: 443
   udp: true
@@ -29,25 +28,13 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 185.253.116.33
-  port: 14430
-  udp: true
-  type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 217.60.73.56
-  port: 443
+  server: 38.180.11.182
+  port: 12146
   udp: true
-  type: hysteria2
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: 37a7c5fb6a3109207a0860d30bedb37c
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   server: 95.174.68.188
   port: 14430
@@ -57,19 +44,19 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+    headers:
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 31.76.227.57
-  port: 443
+  server: 84.235.244.108
+  port: 22573
   udp: true
   type: vless
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
-    short-id: a7856800c2deb7b2
-  servername: assets-mi-26.spbstudentlife.com
-  client-fingerprint: firefox
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
