@@ -11,13 +11,33 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "server": "au001.zestapp778.com",
+      "server_port": 54374,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "au001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
       "type": "anytls",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
       "server": "user02.godvpn.lol",
       "server_port": 62405,
       "password": "4bbfa33a-449a-4a50-8dfc-6d0de880f7bc",
@@ -33,7 +53,8 @@
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
       ]
     },
     {
@@ -41,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
