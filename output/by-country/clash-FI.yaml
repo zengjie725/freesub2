@@ -16,31 +16,14 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 95.216.27.15
-  port: 2053
-  udp: true
-  type: vless
-  uuid: b79d736d-0f10-4169-b626-362059d18204
-  tls: true
-  reality-opts:
-    public-key: aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs
-    short-id: 10351b07c712d2a2
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 5.129.249.155
+  server: fi1.obxodvpn.us
   port: 443
   udp: true
-  type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  servername: assets-59.topp-con.xyz
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  type: hysteria2
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: fi1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 217.144.188.185
   port: 443
   udp: true
@@ -52,6 +35,34 @@ proxies:
     public-key: _ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk
   servername: www.nordea.fi
   client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: b79d736d-0f10-4169-b626-362059d18204
+  tls: true
+  reality-opts:
+    public-key: aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs
+    short-id: 10351b07c712d2a2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
+  server: 65.108.240.210
+  port: 39018
+  udp: true
+  type: vmess
+  uuid: 8ca123a8-720b-47c5-bd0c-637431418b09
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -61,6 +72,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -70,5 +83,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 rules:
 - MATCH,PROXIES
