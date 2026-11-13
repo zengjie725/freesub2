@@ -4,24 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "170.114.45.6",
-      "server_port": 2096,
-      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "type": "vmess",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
+      "server": "13.249.231.85",
+      "server_port": 443,
+      "uuid": "a84c132a-3151-40fe-947b-4dd9a7d2122c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "pcloud.z-tas.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "d7pu5mzr9c4b0.cloudfront.net",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
+        "path": "/vmess",
         "headers": {
-          "Host": "pcloud.z-tas.com"
+          "Host": "d7pu5mzr9c4b0.cloudfront.net"
         }
       }
     },
@@ -30,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
