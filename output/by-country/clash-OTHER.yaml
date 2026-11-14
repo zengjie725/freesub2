@@ -4,33 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 13.249.231.85
-  port: 443
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.21.7.133
+  port: 80
   udp: true
   type: vmess
-  uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
-  tls: true
-  servername: d7pu5mzr9c4b0.cloudfront.net
-  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /ws
     headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES

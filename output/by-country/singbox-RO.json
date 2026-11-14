@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe",
-      "server": "82.152.132.211",
-      "server_port": 8044,
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "selector",
