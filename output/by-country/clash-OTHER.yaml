@@ -5,18 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.7.133
-  port: 80
+  server: 172.64.229.129
+  port: 2052
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   network: ws
   ws-opts:
-    path: /ws
+    path: /rain1226
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: eu02.123450908.xyz
 proxy-groups:
 - name: PROXIES
   type: select
