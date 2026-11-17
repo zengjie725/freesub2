@@ -25,35 +25,26 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "server": "114.37.105.51",
+      "server": "103.115.109.49",
       "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-      "flow": "xtls-rprx-vision",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "tw1.gofizzin.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3OEqq4MiCKoUP5yKBOmZsjuwg4i8A1fb8WrEDOFQek8",
-          "short_id": "2c14765d0b"
-        }
+        "server_name": "103.115.109.49",
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
-      "server": "vpn-tw-002.fastervpn.world",
+      "server": "160.187.100.109",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
+        "server_name": "127.0.0.1",
         "insecure": true
       }
     },
