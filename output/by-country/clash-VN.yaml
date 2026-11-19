@@ -10,32 +10,17 @@ proxies:
   udp: true
   type: vless
   uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: mngd.connainho.lol
-  port: 59736
-  udp: true
-  type: vless
-  uuid: 4ff754c4-a405-401b-81ba-6241fbbb9314
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Zos_i17fmOY1oBrudr6mlL8MJClNuBXvjdOxZ4JK2lI
-    short-id: cab2f4e8
-  servername: www.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
 rules:
 - MATCH,PROXIES
