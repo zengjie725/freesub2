@@ -18,18 +18,20 @@ proxies:
   grpc-opts:
     grpc-service-name: cache.sync.v1
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 185.246.155.91
-  port: 10103
+  server: 172.64.155.209
+  port: 443
   udp: true
   type: vless
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-  flow: xtls-rprx-vision
+  uuid: 14eccb4f-ca88-4732-b191-d8daacf63448
   tls: true
-  reality-opts:
-    public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
-    short-id: 6859f5b59e55aa30
-  servername: www.apple.com
+  servername: sinavm3.soft10.ir
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm3.soft10.ir
 proxy-groups:
 - name: PROXIES
   type: select
